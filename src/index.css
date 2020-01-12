@@ -1,0 +1,8 @@
+.modal-title {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.modal-body h5 {
+    font-weight: 450 !important;
+}
