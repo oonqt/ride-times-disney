@@ -1,9 +1,17 @@
 .background {
-    background: url(img/bg.png) no-repeat center center fixed;
-    background-size: cover;
+    background-color: #aaa9a9;
 }
 
-.bg-filter {
+@media (min-width: 992px) {
+    .background {
+        background: url(img/bg.png) no-repeat center center fixed;
+        background-size: cover;
+        background-attachment:fixed;
+    }
+}
+
+
+.bg-filter { 
     background-color: rgba(255,255,255,0.3);
     height: 100%;
 }

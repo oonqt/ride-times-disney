@@ -11,7 +11,9 @@ const Nav = () => {
             sticky="top"
             style={{
                 height: 55,
-                opacity: 0.95
+                opacity: 0.85,
+                backdropFilter: "blur(2px)",
+                paddingBottom: 55
             }}
         >
             <NavbarBrand className="m-auto">
