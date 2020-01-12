@@ -33,7 +33,7 @@ const RideItem = ({ ride }) => {
                 </Badge>
             </Row>
             <Row className="text-center mb-1">
-                <Col xs="7" className="pl-0 pr-1">
+                <Col xs="7" md="6" className="pl-0 pr-1">
                     <h5
                         style={{
                             border: "1px solid",
@@ -45,7 +45,7 @@ const RideItem = ({ ride }) => {
                         Status: <span className={`text-${colorMap[ride.status]}`}>{ride.status}</span>
                     </h5>
                 </Col>
-                <Col xs="5" className="pr-0 pl-1">
+                <Col xs="5" md="6" className="pr-0 pl-1">
                     <h5
                         style={{
                             border: "1px solid",
