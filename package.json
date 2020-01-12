@@ -7,9 +7,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.1",
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-app-polyfill": "^1.0.5",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "reactstrap": "^8.2.0"
@@ -27,7 +29,8 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie >= 9"
     ],
     "development": [
       "last 1 chrome version",
