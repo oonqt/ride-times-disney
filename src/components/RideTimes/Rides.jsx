@@ -46,7 +46,7 @@ class Rides extends Component {
             <Fragment>
                 <ServerError isOpen={this.state.error} reloadPage={this.reloadPage} />
                 {this.state.loading && <Loader />}
-                <ListGroup className="mt-5 mb-5">
+                <ListGroup>
                     {rideData}
                 </ListGroup>
             </Fragment>
