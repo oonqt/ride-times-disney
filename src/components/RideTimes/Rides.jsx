@@ -37,7 +37,7 @@ class Rides extends Component {
     render() {
         const rideData = this.state.rides
             .map(ride => (
-                <ListGroupItem key={`{ride.name}-${Math.floor(Math.random() * 9999999)}`}>
+                <ListGroupItem key={ride.name}>
                     <RideItem ride={ride} />
                 </ListGroupItem>
             ));
